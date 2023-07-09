@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Candidate Search</title>
+  <link rel="stylesheet" href="./style/search.css">
+  <link rel="stylesheet" href="https://assets.ubuntu.com/v1/vanilla-framework-version-4.0.0.min.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Candidate Search</h2>
+    <form id="searchForm">
+      <input type="text" placeholder="Location" id="locationInput">
+      <input type="text" placeholder="Job Role" id="jobRoleInput">
+      <input type="submit" value="Search">
+    </form>
+  </div>
+  
+  <div class="container">
+    <h2>Search Results</h2>
+    <ul id="candidateList"></ul>
+  </div>
+  <section>
+    <table aria-label="Example of formatting in the table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Location</th>
+            <th >Job Role</th>
+           
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>John Doe</th>
+            <td>New York</td>
+            <td >Software Engineer</td>
+        
+          </tr>
+          <tr>
+            <th>Jane Smith</th>
+            <td>San Francisco</td>
+            <td >Product Manager</td>
+           
+          </tr>
+          <tr>
+            <th class="u-truncate">David Johnson</th>
+            <td>London</td>
+            <td >Data Analyst</td>
+           
+          </tr>
+          <tr>
+            <th class="u-truncate">Michel Warner</th>
+            <td>Melbourne</td>
+            <td >Laravel Developer</td>
+           
+          </tr>
+          <tr>
+            <th class="u-truncate">Sara lion</th>
+            <td>Spain</td>
+            <td >Software Manager</td>
+           
+          </tr>
+          <tr>
+            <th class="u-truncate">Alex Cook</th>
+            <td>Chicago</td>
+            <td >Data Entry</td>
+           
+          </tr>
+          <tr>
+            <th class="u-truncate">Christopher</th>
+            <td>Sydney</td>
+            <td >Data Analyst</td>
+           
+          </tr>
+          <tr>
+            <th class="u-truncate">Sophie</th>
+            <td>French</td>
+            <td >Graphics Designer</td>
+           
+          </tr>
+          <tr>
+            <th class="u-truncate">Freya</th>
+            <td>Norway</td>
+            <td >React Developer</td>
+           
+          </tr>
+        </tbody>
+      </table>
+  </section>
+
+  <script src="./search.js"></script>
+</body>
+</html>
